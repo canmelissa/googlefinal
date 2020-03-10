@@ -1,0 +1,152 @@
+/* Début logo */
+.image-center {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/* fin logo */
+
+/* Début barre de recherche */
+.barre {
+  text-align: center;
+  padding: 20px;
+}
+
+#barre-de-recherche {
+  width: 540px;
+  padding: 20px 10px;
+  border-radius: 25px;
+  border-style: 25px;
+  line-height: 55px;
+  border: 0.7px solid #D8D8D8;
+}
+
+.barre #barre-de-recherche {
+  padding: 0 8px;
+}
+
+.barre #barre-de-recherche:hover {
+  border: none;
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+
+}
+
+.boutons {
+  margin-bottom: 300px;
+  padding: 13px;
+  width: 173px;
+  align-items: center;
+  justify-content: space-around;
+  display: inline-block;
+  margin: auto;
+  border:none;
+  border-radius: 3px;
+  background-color: #F1F0F0;
+  font-size: 16px;
+  color: #585858;
+}
+
+.boutons:hover {
+  background-color: #F8F5F5;
+  border: solid darkgrey 0.5px;
+  color: black;
+}
+
+
+
+#recherche-google:hover {
+  box-shadow: 1px 1px 5px #999;
+}
+
+.boutonscentre{
+  display: center;
+  margin: auto;
+  text-align: center;
+}
+/* fin barre de recherche */
+
+/* début navigation */
+#barre-de-nav {
+  float: right;
+}
+
+#barre-de-nav li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#barre-de-nav #se-connecter {
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  background: #4887ef;
+}
+
+.liens {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.liens a:hover {
+  text-decoration: underline;
+}
+
+#se-connecter:hover {
+  box-shadow: 1px 1px 5px #999;
+}
+
+#se-connecter {
+  color: #fff;
+}
+/* Fin navigation */
+
+/* début footer */
+
+footer {
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0;
+  border-top: solid 2px #e4e4e4;
+  background: #f2f2f2;
+}
+
+footer ul li {
+  display: inline;
+  padding: 11px;
+  font-size: 15px;
+  color: #666;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-droite {
+  float: right;
+}
+
+.pays {
+  margin-left: 0;
+  padding: 11px;
+  font-size: 15px;
+  color: #666;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+/*   Fin footer */
